@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "humanmurph-agentapp_jd330"
+name = "humanmurph-long_context_positional_extrapolation_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对Agent 应用开发工程师·长上下文的位置编码外推相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://humanmurph.github.io"
-Repository = "https://github.com/humanmurph/agentapp_jd330"
-Issues = "https://github.com/humanmurph/agentapp_jd330/issues"
+Repository = "https://github.com/humanmurph/long_context_positional_extrapolation_segmenter"
+Issues = "https://github.com/humanmurph/long_context_positional_extrapolation_segmenter/issues"
 
 [project.scripts]
-agentapp_jd330 = "agentapp_jd330:main"
+long_context_positional_extrapolation_segmenter = "long_context_positional_extrapolation_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["agentapp_jd330"]
+py-modules = ["long_context_positional_extrapolation_segmenter"]
